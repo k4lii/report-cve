@@ -1,0 +1,8 @@
+{
+    "date": null,
+    "days_before": 10,
+    "severity": ["MEDIUM", "HIGH"],
+    "opencve_user" : "xxxxxx",
+    "opencve_password" : "xxxxxx",
+    "path" : null
+}

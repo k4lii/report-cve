@@ -1,0 +1,80 @@
+[
+    {
+        "vendor": "docker",
+        "tool": "docker",
+        "version": ["19.03.13", "20.10.2", "20.10.3", "20.10.6"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "grafana",
+        "tool": "grafana",
+        "version": ["7.5.6"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "prometheus",
+        "tool": "prometheus",
+        "version": ["2.27.0"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "elastic",
+        "tool": "elasticsearch",
+        "version": ["7.12.1"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "elastic",
+        "tool": "kibana",
+        "version": ["7.12.1"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "elastic",
+        "tool": "filebeat",
+        "version": ["7.12.1"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "elastic",
+        "tool": "heartbeat",
+        "version": ["7.12.1"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "apache",
+        "tool": "cassandra",
+        "version": ["3.11.10"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "nginx",
+        "tool": "nginx",
+        "version": ["1.18.0", "1.19.4"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "centos",
+        "tool": "centos",
+        "version": ["7.9.2009"],
+        "sys_type" : "o"
+    },
+    {
+        "vendor": "oracle",
+        "tool": "mysql",
+        "version": ["8.0.22"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "wildfly",
+        "tool": "wildfly",
+        "version": ["20.0.1:final"],
+        "sys_type" : "a"
+    },
+    {
+        "vendor": "oracle",
+        "tool": "jdk",
+        "version": ["1.8.0:update_262"],
+        "sys_type" : "a"
+    }
+]

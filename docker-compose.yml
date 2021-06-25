@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+  cve_extractor:
+    build:
+        context: ./CVE_extractor/
+    volumes:
+      - ./CVE_extractor/OPSTools.json:/home/OPSTools.json
+      - ./CVE_extractor/config.json:/home/config.json
+    container_name: cve_extractor
+
+#   filebeat:
+#     container_name: filebeat
+#     build:
+#       context: ./filebeat/
+#     volumes:
+#       # - /var/run/docker.sock:/var/run/docker.sock # for filebeat container autodiscover permissions
+#     networks:
+#       - poc_network
+
+# networks:
+#   poc_network:
+#     external:
+#       name: poc_network

@@ -1,0 +1,24 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /home/logs/*.log
+
+output.logstash:
+  hosts: ["logstash:5044"]
+
+
+# filebeat.autodiscover:
+#   providers:
+#     - type: docker
+#       templates:
+#         - condition:
+#             contains:
+#               docker.container.name: cve_extractor
+#           config:
+#             - type: docker
+#               containers.ids:
+#                 - "${data.docker.container.id}"
+
+# output.logstash:
+#   hosts: ["logstash:5044"]
